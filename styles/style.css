@@ -11,12 +11,17 @@
 
 .header_links-list {
   display: flex;
-  gap: 32px;
-  padding-left: 26px;
+  gap: 33px;
+  padding-left: 23px;
   font-size: 18px;
   line-height: 21px;
   list-style: circle;
 }
+
+.header_links-list-item:first-child {
+  list-style: none;
+}
+
 .header_link_main {
   text-decoration: none;
 }
@@ -24,10 +29,6 @@
 .header_link {
   text-underline-offset: 4px;
   color: #000;
-}
-
-.header_link_main {
-  text-decoration: none;
 }
 
 .header_logo {
@@ -127,6 +128,7 @@
   text-transform: uppercase;
   word-spacing: 18px;
 }
+
 .bet-button {
   width: 256px;
   min-height: 51px;
@@ -219,6 +221,7 @@
   text-transform: lowercase;
   color: #000;
 }
+
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
@@ -245,10 +248,7 @@
   margin: 136px 0 100px;
   font-size: 40px;
   line-height: 47px;
-  text-transform:
-
-
-uppercase;
+  text-transform: uppercase;
 }
 
 .about_text {
@@ -267,14 +267,17 @@ uppercase;
   align-items: start;
   padding: 180px 50px 82px;
 }
-.address_text-footer{
+
+.address_text-footer {
   display: block;
   width: 260px;
   height: 49px;
 }
+
 .footer_menu {
   justify-self: center;
 }
+
 
 .footer_menu-list {
   font-size: 18px;
