@@ -49,8 +49,8 @@
 }
 
 .header_address {
-  justify-self:center;
-  transform: translateX(80px);
+  justify-self:end;
+  margin-right: 30px;
   
 }
 
@@ -63,7 +63,6 @@
 .address_text {
   display: block;
   width: 236.49px;
-  height: 49px;
 }
 
 .overlay {
@@ -256,7 +255,6 @@
   flex-direction: column;
   gap: 24px;
   max-width: 688px;
-  height: 312px;
   font-size: 20px;
   line-height: 24px;
 }
@@ -271,7 +269,7 @@
 .address_text-footer {
   display: block;
   width: 260px;
-  height: 49px;
+  
 }
 
 .footer_menu {
@@ -290,7 +288,6 @@
   display: inline-block;
   min-width: max-content;
   text-underline-offset: 4px;
-  white-space: nowrap;
   color: #000;
 }
 
